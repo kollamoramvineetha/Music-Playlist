@@ -126,7 +126,11 @@ class Home extends Component {
             placeholder="search"
           />
         </div>
-        <Object />
+        <ul>
+          {this.renderList().map(each => (
+            <Object details={each} key={each.id} />
+          ))}
+        </ul>
       </div>
     )
   }
