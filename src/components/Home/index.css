@@ -1,0 +1,27 @@
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  color: white;
+  width: 100%;
+  padding: 150px;
+  background-size: cover;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+input {
+  height: 30px;
+  margin: 40px;
+  width: 300px;
+  background-color: transparent;
+  border-color: #cbd5e1;
+  color: white;
+}
+.card2 {
+  background-color: #152850;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
